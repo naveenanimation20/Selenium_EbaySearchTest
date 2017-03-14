@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Ebay Test Suite]">
+  <parameter name="TotalItemNumber" value="20"/>
+  <parameter name="SearchKeyWord" value="iPhone"/>
+  <test name="Ebay Search Test1(failed)">
+    <parameter name="TotalItemNumber" value="20"/>
+    <parameter name="SearchKeyWord" value="iPad"/>
+    <classes>
+      <class name="EbayTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="ebaySearch_LowerToHigherPriceTest" invocation-numbers="0"/>
+          <include name="ebaySearch_HigherToLowerPriceTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- EbayTest -->
+    </classes>
+  </test> <!-- Ebay Search Test1(failed) -->
+  <test name="Ebay Search Test2(failed)">
+    <parameter name="TotalItemNumber" value="20"/>
+    <parameter name="SearchKeyWord" value="iPhone"/>
+    <classes>
+      <class name="EbayTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="ebaySearch_LowerToHigherPriceTest" invocation-numbers="0"/>
+          <include name="ebaySearch_HigherToLowerPriceTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- EbayTest -->
+    </classes>
+  </test> <!-- Ebay Search Test2(failed) -->
+</suite> <!-- Failed suite [Ebay Test Suite] -->
