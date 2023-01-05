@@ -15,6 +15,7 @@
 	</properties>
 
 //Comment 1
+//Comment 2
 	<build>
 		<plugins>
 			<plugin>
